@@ -1,0 +1,83 @@
+html,body{
+    /* background-color: rgb(211, 211, 211) !important; */
+    background-image: linear-gradient( #5fc3e4,#e55d87 );
+    font-style: italic;
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-center{
+    margin: 05px 0px 0px 0px !important;
+    background-color: rgb(20, 134, 149);
+    padding: 10px 0% 10px 0%;
+    color: #fff;
+    font-family: cursive;
+}
+.text-center>h1{
+    font-size: 50px !important;
+    text-shadow:2px 8px  5px #0ecff1 ;
+
+}
+ol{
+    margin-bottom: auto;
+    padding: 15px 10px 10px 100px;
+    font-style: italic;
+
+}
+li{
+    margin: 20px 0 10px 0;
+    margin-bottom: auto;
+    padding: 15px 10px 10px 40px;
+    font-style: oblique;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* border-style: dotted dashed solid double; */
+    border-style: groove;
+}
+
+.btn{
+    background-color: rgba(209, 9, 109, 0.774) !important;
+    font-size: 20px !important;
+    font-style: italic !important;
+    border-radius: 20px !important;
+    box-shadow:  0 4px 8px 0 rgba(204, 239, 248, 0.445), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.btn:hover {
+    background-color: rgba(48, 179, 240, 0.63) !important;
+}
+
+
+input[type=radio]{
+    /* padding: 10px 10px 10px 10px !important; */
+    margin: 10px 10px 10px 10px !important;
+  
+}
+button{
+    margin-bottom: 30px !important;
+    width: 300px;
+    margin-left: 44% !important;
+}
+
+
+
+
+
+
+
+/* ========================================================================
+                        count  down
+==========================================================================*/
+#count{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    /* display: flex; */
+    position: absolute;
+    z-index: 1;
+
+}
